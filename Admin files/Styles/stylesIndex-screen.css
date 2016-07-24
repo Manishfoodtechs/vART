@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+	background-color: #040404;
+	
+	font-family: verdana, sans-serif;
+	font-size: 11px;
+	
+	color: white;
+	
+    /*background-color: ;
+    background-image: url(Images/wallpaper.jpg);
+    background-position: top left;
+    background-repeat: ;*/
+}
+
+
+#contentContainer {
+    width: 800px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*background-color: pink;*/
+}
+
+#titleContainer {
+    width: 100%;
+    height: 70px;
+	
+	margin-top: 15px;   
+
+	background-color: ;
+
+    background-image: url(Images/title.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+	
+	text-align: right;
+}
+
+        
+#unityContainer {
+    width: 100%;
+    height: 400px;
+	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	border-top: 1px solid #252f33;
+	border-bottom: 1px solid #252f33;
+    
+    background-color: ;
+}
+        
+#tabsContainer {
+    width: 100%;
+	
+	margin-top: 30px;
+    
+    /*background-color: yellow;*/
+}
+
+#contentLeft {
+	float: left;
+	width: 354px;
+	
+	text-align: center;
+	
+	margin-right: 10px;
+	
+	background-color: ;
+}
+
+#contentLeft img {
+	border: 2px solid white;
+}
+
+#contentRight {
+	float: left;
+	width: 436px;
+	
+	background-color: ;
+}
+
+	.redHighlight {
+		color: white;
+	}
+
+#footerContainer {
+    float: left;
+	
+	width: 100%;
+    height: 100px;
+	
+	font-family: verdana, sans-serif;
+	font-size: 10px;
+	
+	margin-top: 15px;
+	
+	text-align: right;
+    
+    background-color: ;
+}
+
+#footerContainer a:link{
+    color: #971a06;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footerContainer a:visited{
+    color: #971a06;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footerContainer a:hover{
+    color: #971a06;
+	text-decoration: underline;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footerContainer a:active{
+    color: white;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
