@@ -1,0 +1,452 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+	background-color: #040404;
+	
+	font-family: verdana, sans-serif;
+	font-size: 11px;
+	
+	color: white;
+	
+    /*background-color: ;
+    background-image: url(Images/wallpaper.jpg);
+    background-position: top left;
+    background-repeat: ;*/
+}
+
+
+#contentContainer {
+    width: 800px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*background-color: pink;*/
+}
+
+#titleContainer {
+    width: 100%;
+    height: 70px;
+	
+	margin-top: 15px;   
+
+	background-color: ;
+
+    background-image: url(Images/title.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+	
+	text-align: right;
+}
+
+	#titleContainer input {
+		color: #971a06;
+	
+		font-size: 11px;
+		
+		font-weight: bold;
+		
+		border: 1px solid;
+		border-color: #040404;
+		background-color: #040404;
+	}
+
+#loginContainer {
+	
+	width: 450px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding: 10px;
+	
+	border: 1px solid #971a06;
+	
+	text-align: right;
+}
+
+	#loginContainer .loginError {
+		color: #971a06;
+		
+		padding-bottom: 5px;
+	}
+	
+	#loginContainer .password {
+	
+		padding-left: 10px;
+	}
+
+
+
+#selectContainer {
+    float: left;
+	
+	width: 100%;
+    
+    background-color: ;
+	
+	border-top: 1px solid #252f33;
+	border-bottom: 1px solid #252f33;
+
+	padding-top: 20px;
+	padding-bottom: 15px;
+	
+	margin-bottom: 10px;
+
+}
+
+
+
+#valuesContainer {
+    width: 100%;
+    
+    /*background-color: purple;*/
+	
+	font-size: 11px;
+
+}
+
+#valuesContainer h1 {
+	color: #252f33;
+}
+
+	
+	
+	
+.positionContainerMin {
+	width: 100%;
+	
+	float: left;
+	
+	margin-bottom: 5px;
+}
+
+.positionContainerMinUpper, .positionContainerMaxUpper {
+	float: left;
+	
+	width: 100%;
+	height: 22px;
+	
+	border-bottom: 1px solid black;
+
+	background-color: #252f33;
+}
+
+.positionContainerMinUpperLeft, .positionContainerMaxUpperLeft {
+	float: left;
+	
+	font-size: 12px;
+	font-weight: bold;
+	
+	padding-top: 3px;
+	padding-left: 5px;
+	
+	background-color: ;
+	
+	background-image: url(Images/curveTL.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.positionContainerMinUpperRight, .positionContainerMaxUpperRight {
+	float: right;
+	
+	padding-top: 3px;
+	padding-right: 5px;
+	
+	background-color: ;
+	
+	background-image: url(Images/curveTR.gif);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.positionContainerMinUpperRight input, .positionContainerMaxUpperRight input {
+	color: white;
+	
+	font-size: 11px;
+	
+	padding-left: ;
+	
+	border: 1px solid;
+	border-color: #252f33;
+	background-color: #252f33;
+	
+}
+
+.positionContainerMinLower {
+	width: 100%;
+	height: 90px;
+	float: left;
+	background-color: #252f33;
+}
+
+.positionContainerMinLowerLeft {
+	
+	float: left;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	
+	background-color: ;
+	
+	background-image: url(Images/curveBL.gif);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.positionContainerMinLowerLeft img {
+	margin-left: 5px;
+	border: 2px solid black;
+	vertical-align: middle;
+}
+
+.positionContainerMinLowerRight {
+	float: left;
+	
+	margin-left: 10px;
+	
+	height: 90px;
+	width: 700px;
+	
+	background-color: ;
+	
+	background-image: url(Images/curveBR.gif);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.positionContainerMinLowerRightContent {
+	padding-top: 3px;
+}
+
+	.paintingTitle {
+		font-weight: bold;	
+	}
+
+
+
+
+
+.positionContainerMax {
+	display: none;
+	width: 100%;
+	
+	float: left;
+	
+	margin-bottom: 5px;
+}
+
+.positionContainerMaxMiddle {
+	float: left;
+	
+	width: 100%;
+
+	
+	background-color: #091114;
+}
+
+.positionContainerMaxMiddleUpper {
+	float: left;
+	
+	width: 100%;
+	
+	
+	
+	border-bottom: 1px solid black;
+	
+	background-color: ;
+}
+
+.positionContainerMaxMiddleUpperLeft {
+	float: left;
+	
+	width: 180px;
+	line-height: 200px;
+	
+	
+	text-align: center;
+	
+	background-color: ;
+}
+
+.positionContainerMaxMiddleUpperLeft img {
+	vertical-align: middle;
+	border: 2px solid white;
+}
+
+.positionContainerMaxMiddleUpperRight {
+	float: left;
+	
+	width: 620px;
+	
+	margin-top: 10px;
+	
+	background-color: ;
+}
+
+	.paintingArtist {
+		padding-right: 15px;	
+	}
+	
+	.paintingTitleMax input, .paintingArtist input, .paintingDate input {
+		width: 200px;	
+	}
+	
+	.paintingDescription textarea {
+		width: 607px;	
+		font-family: verdana, sans-serif;
+		font-size: 11px;
+	}
+
+.positionContainerMaxMiddleLower {
+	float: left;
+	
+	width: 100%;
+	
+	margin-top: 10px;
+	
+	background-color: ;
+	
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+	
+	.paintingFile input{
+		width: 790px;
+	}
+	
+	.paintingFrameStyle {
+		padding-right: 50px;
+	}
+	
+	.paintingSize {
+		padding-right: 50px;
+	}
+	
+	.paintingEnabled {
+		padding-right: 50px;
+	}
+
+.positionContainerMaxLower {
+	float: left;
+	
+	width: 100%;
+	height: 22px;
+	
+	margin-top: 1px;
+	
+	background-color: #252f33;
+}
+
+.positionContainerMaxLowerLeft {
+	
+	float: left;
+	
+	width: 50%;
+	height: 22px;
+	
+	background-image: url(Images/curveBL.gif);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.positionContainerMaxLowerRight {
+	float: left;
+
+	width: 50%;
+	height: 22px;
+	
+	background-image: url(Images/curveBR.gif);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+
+
+/*USED TO BUMP UP THE POSITION CONTAINERS ABOVE THE FLOATING SAVE FOOTER*/
+#positionContainerMin14, #positionContainerMax14{
+	padding-bottom: 110px;
+}
+
+
+#floatingSaveContainer {
+	position: fixed;
+	bottom: 0px;
+	
+	width: 100%;
+	height: 100px;
+	
+	background-color: black;
+	
+	border-top: 1px solid white;
+}
+
+#positionContainerSave {
+	height: 100px;
+	width: 800px;
+	
+	position: relative;
+	
+	margin-left: auto;
+    margin-right: auto;
+
+	background-color: ;
+}
+
+#positionContainerSave #TextContainer {
+	float: left;
+	
+	width: 780px;
+	height: 33px;
+	
+	font-size: 15px;
+	color: white;
+	
+	padding-top: 7px;
+	
+	background-color: ;
+}
+
+#positionContainerSave #renameContainer {
+	float: left;
+	
+	width: 780px;
+	height: 33px;
+	
+	background-color: ;
+}
+
+#positionContainerSave #messageContainer {
+	float: left;
+	
+	width: 780px;
+	height: 33px;
+	
+	font-size: 15px;
+	color: #971a06;
+	
+	background-color: ;
+}
+
+#positionContainerSave #saveButtonContainer {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+	height: 100px;
+	
+	background-color: ;
+}
+
+#positionContainerSave #saveButtonContainer input {
+	font-size: 20px;
+	
+	width: 100px;
+	height: 65px;
+	
+	margin-top: 17px;
+}
